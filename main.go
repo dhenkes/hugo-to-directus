@@ -191,7 +191,8 @@ func main() {
 			"title": "`+postRequest.title+`",
 			"status": "`+postRequest.status+`",
 			"date": `+postRequest.date+`,
-			"url": "`+postRequest.url+`"
+			"url": "`+postRequest.url+`",
+			"content": "`+postRequest.content+`"
 		}`)))
 
 		if err != nil {
