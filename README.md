@@ -1,2 +1,15 @@
 # hugo-to-directus
-Converts Hugo markdown files and POSTs them to a directus collection
+
+This script takes a Hugo folder containing Markdown files, validates them and posts them to a Directus collection.
+
+The body currently looks like this:
+
+```json
+{
+  "title": "Title",
+  "status": "published"
+  "date": 1692515918360,
+  "url": "unique-url",
+  "content": "Content"
+}
+```
